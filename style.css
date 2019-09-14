@@ -12,12 +12,6 @@
 
 }
 
-/*.titlediv{
-	width: 500px;
-	height: 150px;
-	align-content: center;
-}*/
-
 .titlediv h1, h3{
 	text-align: center;
 	color: white;
@@ -40,13 +34,16 @@ nav a{
 }
 
 footer {
+		position: fixed;
+		bottom: 0;
+		width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0 4rem 0;
     background-color: #424B55;
     height: 4rem;
     color: white;
+    padding: 20px;
 }
 
 footer i{
@@ -68,6 +65,11 @@ footer i{
 	display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.proj{
+	height: 30vh;
+
 }
 
 .proj a{
