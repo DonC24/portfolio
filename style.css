@@ -66,7 +66,7 @@ footer i{
 }
 
 .centeredtext h4 {
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	font-style: italic;
 }
 
@@ -85,8 +85,15 @@ footer i{
 	font-size: 1.2rem;
 }
 
+.projlinks{
+	display: flex;
+	justify-content: space-between;
+  align-items: center;
+}
+
 .proj a{
 	font-style: italic;
+	font-size: 1.1rem;
 }
 
 .projimg {
