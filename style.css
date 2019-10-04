@@ -1,3 +1,8 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
 .mainimgdiv {
 	height: 40vh;
 	width: 100%;
@@ -18,8 +23,15 @@
 	text-shadow: 2px 2px #000000;
 }
 
+h1 {
+	font-size: 3.5rem;
+}
+
+h3{
+	font-size: 2rem;
+}
+
 nav {
-	font-family: 'Lato', sans-serif;
 	font-weight: 800;
 	font-size: 1.3rem;
 	display: flex;
@@ -34,16 +46,12 @@ nav a{
 }
 
 footer {
-		position: fixed;
-		bottom: 0;
-		width: 100vw;
+		width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #424B55;
-    height: 4rem;
-    color: white;
-    padding: 20px;
+    padding: 10px;
 }
 
 footer i{
@@ -58,20 +66,30 @@ footer i{
 }
 
 .centeredtext h4 {
+	font-size: 1.5rem;
 	font-style: italic;
 }
 
 .projwrapdiv {
 	display: flex;
+	flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
 }
 
-.proj{
-	height: 30vh;
+.proj {
+	padding-bottom: 20px;
+}
 
+.proj h5 {
+	font-size: 1.2rem;
 }
 
 .proj a{
 	font-style: italic;
+}
+
+.projimg {
+	height: 20vh;
+	width: 30vh;
 }
